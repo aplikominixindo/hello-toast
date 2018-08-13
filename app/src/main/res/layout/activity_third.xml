@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:text="KEMBALI"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:text="0"
+        android:textSize="300sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+        android:background="#ffffff"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtDisplayName"
+        android:text="YUSUF RIZAL"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBerikutnya"
+        android:text="BERIKUTNYA"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

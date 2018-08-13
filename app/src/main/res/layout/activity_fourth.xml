@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".FourthActivity">
+
+    <EditText
+        android:id="@+id/editLinkURL"
+        android:padding="4dp"
+        android:text="http://www.google.com"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnLinkURL"
+        android:layout_marginBottom="24dp"
+        android:text="OPEN LINK URL"
+        android:textSize="20sp"
+        android:onClick="openLinkUrl"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editGoogleMap"
+        android:padding="4dp"
+        android:text="Jembatan Suramadu"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnGoogleMap"
+        android:layout_marginBottom="24dp"
+        android:text="OPEN GOOGLE MAP"
+        android:textSize="20sp"
+        android:onClick="openGoogleMap"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editShareText"
+        android:padding="4dp"
+        android:text="Ini adalah teks yang akan dishare"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnShareText"
+        android:layout_marginBottom="24dp"
+        android:text="OPEN SHARE TEXT"
+        android:textSize="20sp"
+        android:onClick="openShareText"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
